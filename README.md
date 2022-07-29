@@ -25,9 +25,9 @@ docker login
 
 /**
 Tagging before pushing to Dockerhub.
-"docker tag <imagename> repositorytagname"
+"docker tag <imagename> repositorytagname:tagname"
 **/
-docker tag spring-docker-app geraldjayilagan/dockerdemoapps2022
+docker tag spring-docker-app geraldjayilagan/dockerdemoapps2022:spring-docker-app
 /**
 Pushing image to docker hub. Not providing any tags will use the default tag latest
 
